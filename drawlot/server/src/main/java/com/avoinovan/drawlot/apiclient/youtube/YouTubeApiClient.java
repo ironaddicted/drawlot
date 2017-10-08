@@ -1,10 +1,10 @@
 package com.avoinovan.drawlot.apiclient.youtube;
 
-import com.avoinovan.drawlot.auth.service.YoutubeAuthService;
 import com.avoinovan.drawlot.model.entity.AccessToken;
 import com.avoinovan.drawlot.model.entity.Platform;
 import com.avoinovan.drawlot.model.repository.AccessTokenRepository;
 import com.avoinovan.drawlot.model.repository.UserRepository;
+import com.avoinovan.drawlot.service.auth.YoutubeAuthService;
 import com.google.api.client.http.HttpTransport;
 import com.google.api.client.json.JsonFactory;
 import com.google.api.services.youtube.YouTube;

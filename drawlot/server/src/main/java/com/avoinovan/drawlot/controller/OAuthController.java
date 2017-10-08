@@ -1,11 +1,11 @@
 package com.avoinovan.drawlot.controller;
 
-import com.avoinovan.drawlot.auth.service.YoutubeAuthService;
 import com.avoinovan.drawlot.model.entity.AccessToken;
 import com.avoinovan.drawlot.model.entity.Platform;
 import com.avoinovan.drawlot.model.entity.User;
 import com.avoinovan.drawlot.model.repository.AccessTokenRepository;
 import com.avoinovan.drawlot.model.repository.UserRepository;
+import com.avoinovan.drawlot.service.auth.YoutubeAuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

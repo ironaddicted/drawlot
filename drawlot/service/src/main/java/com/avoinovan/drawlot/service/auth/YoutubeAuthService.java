@@ -1,9 +1,7 @@
-package com.avoinovan.drawlot.auth.service;
+package com.avoinovan.drawlot.service.auth;
 
-import com.avoinovan.drawlot.model.repository.UserRepository;
 import com.google.api.client.http.HttpTransport;
 import com.google.api.client.json.JsonFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

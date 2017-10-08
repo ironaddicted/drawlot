@@ -1,4 +1,4 @@
-package com.avoinovan.drawlot.auth.service;
+package com.avoinovan.drawlot.service.auth;
 
 import com.google.api.client.auth.oauth2.TokenResponse;
 import com.google.api.client.googleapis.auth.oauth2.GoogleAuthorizationCodeFlow;

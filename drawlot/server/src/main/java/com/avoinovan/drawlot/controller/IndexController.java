@@ -19,4 +19,10 @@ public class IndexController {
         params.put("platform", "Youtube");
         return new ModelAndView("regcomplete", params);
     }
+
+    @GetMapping("/index")
+    public ModelAndView index() {
+        Map<String, String> params = new LinkedHashMap<>();
+        return new ModelAndView("index");
+    }
 }

@@ -1,10 +1,10 @@
 package com.avoinovan.drawlot.api;
 
 import com.avoinovan.drawlot.apiclient.youtube.YouTubeApiClient;
-import com.avoinovan.drawlot.auth.service.YoutubeAuthService;
 import com.avoinovan.drawlot.model.entity.User;
 import com.avoinovan.drawlot.model.repository.AccessTokenRepository;
 import com.avoinovan.drawlot.model.repository.UserRepository;
+import com.avoinovan.drawlot.service.auth.YoutubeAuthService;
 import org.springframework.stereotype.Component;
 
 import javax.validation.constraints.NotNull;
