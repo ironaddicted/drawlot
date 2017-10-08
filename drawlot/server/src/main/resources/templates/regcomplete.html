@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Congrats! ${platform} integration is complete.</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+
+Congrats! You have succesfully logged in to <span th:text="${platform}"></span>
+
+<form>
+    <button th:action="submit">Organise a Draw</button>
+</form>
+<form>
+    <button th:action="submit">Integrate with another platform</button>
+</form>
+</body>
+</html>

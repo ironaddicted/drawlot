@@ -1,0 +1,36 @@
+{
+  "name": "drawlot",
+  "version": "0.1.0",
+  "description": "Drawings on multiple platforms",
+  "keywords": [
+    "draw",
+    "socialnetwork",
+    "pick",
+    "youtube",
+    "facebook"
+  ],
+  "author": "Alex Voinovan",
+  "license": "Apache-2.0",
+  "homepage": "smartphire.com",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-recaptcha": "^2.3.1",
+    "react-router-dom": "^4.1.1",
+    "stompjs": "^2.3.3",
+    "json-loader": "^0.5.4",
+    "rest": "^1.3.1",
+    "net" :"^1.0.2",
+    "webpack": "^1.12.2"
+  },
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0"
+  }
+}
